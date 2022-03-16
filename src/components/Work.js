@@ -23,7 +23,7 @@ const projects = [
   {
     "title": "This website",
     "body": "This website itself it's a cool project. Developed with React and MaterialUI",
-    "image": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+    "image": "website.png",
     "kind": ["All", "WebDev", "React"],
     "github_link": "",
     "demo_link": "",
@@ -33,7 +33,7 @@ const projects = [
   {
     "title": "Waveportal",
     "body": "Wave Portal is a blockchain message wall on the Rinkeby testnet. Users can writte any message throught a transaction that will be stored forever in the contract.",
-    "image": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+    "image": "waveportal.png",
     "kind": ["All", "Blockchain", "Ethereum", "Solidity"],
     "github_link": "https://github.com/marcvernet31/waveportal",
     "demo_link": "https://waveportal-rinkeby.netlify.app/",
@@ -44,7 +44,7 @@ const projects = [
   {
     "title": "Colors NFT",
     "body": "Colors is a simple proof-of-concept NFT minting app. The NFT's are squares of a pseudo-random color chosen at the mint moment. Everything is generated on-chain.",
-    "image": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+    "image": "colorNFT.png",
     "kind": ["All", "Blockchain", "Ethereum", "Solidity"],
     "github_link": "https://github.com/marcvernet31/ColorsNFT",
     "demo_link": "https://colorsquare-nft.netlify.app/",
@@ -54,7 +54,7 @@ const projects = [
   {
     "title": "Reddit Scrapper",
     "body": "Reddit Scrapper is a tool to extract data from Reddit. It's used from a terminal and it's aimed to be an easy and relatively fast way to download massive quantities of text and metadata from any subreddit.",
-    "image": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+    "image": "reddit.png",
     "kind": ["All", "Python", "Data Science"],
     "github_link": "https://github.com/marcvernet31/redditScrapper",
     "demo_link": "",
@@ -65,7 +65,7 @@ const projects = [
   {
     "title": "Bitcoin from scratch",
     "body": "This project is an attempt to code a DIY clone of Bitcoin with similar functionalities. The goal was to learn firsthand the inner working of cryptocurrency more than having a functional final product (which is absolutely not haha).",
-    "image": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+    "image": "bitcoin.png",
     "kind": ["All", "Blockchain", "Python"],
     "github_link": "https://github.com/marcvernet31/bitcoin-from-scratch",
     "demo_link": "",
@@ -76,7 +76,7 @@ const projects = [
   {
     "title": "Bicing Visualizations",
     "body": "The aim of this project was to develop two sets of insightful visualizations for the Bicing Data. Bicing is the Barcelona bike sharing service. Both groups of visualizations were developed with Python's library Altair.",
-    "image": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+    "image": "bicing.jpg",
     "kind": ["All", "Python", "Data Science"],
     "github_link": "https://github.com/marcvernet31/Bicing-Visualization",
     "demo_link": "",
@@ -87,9 +87,9 @@ const projects = [
   {
     "title": "BicingBot",
     "body": "TheRealBicingBot, un bot de Telegram que permet obtenir informació en temps real sobre el servei del Bicing. ",
-    "image": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+    "image": "bicing_bot.jpg",
     "kind": ["All", "Python", "Data Science"],
-    "github_link": "",
+    "github_link": "https://github.com/marcvernet31/BicingBot",
     "demo_link": "",
     "live_demo": "",
     "has_image": "true" 
@@ -97,7 +97,7 @@ const projects = [
   {
     "title": "CryptoBizum",
     "body": "Simple interface for sending Eth",
-    "image": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+    "image": "cryptobizum.png",
     "kind": ["All", "Blockchain", "Ethereum", "Solidity"],
     "github_link": "https://github.com/marcvernet31/CryptoBizum",
     "demo_link": "https://cryptobizum.netlify.app/ ",
@@ -107,7 +107,7 @@ const projects = [
   {
     "title": "Door Opening",
     "body": "Door movement prediction",
-    "image": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+    "image": "stm.jpg",
     "kind": ["All", "Python", "Embedded devices"],
     "github_link": "https://github.com/marcvernet31/door_opening",
     "demo_link": "",
@@ -118,7 +118,7 @@ const projects = [
   {
     "title": "MNIST for smallcomputer",
     "body": "Handwritten digit recognition on an STM32F4 32-bit microcontroller integrated circuit",
-    "image": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+    "image": "stm.jpg",
     "kind": ["All", "Embedded devices", "C/C++", "Machine Learning"],
     "github_link": "https://github.com/marcvernet31/MNIST-for-smallcomputer",
     "demo_link": "",
@@ -129,7 +129,7 @@ const projects = [
   {
     "title": "Small Neural Network",
     "body": "Mini neural network coded in C",
-    "image": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+    "image": "nn.png",
     "kind": ["All", "Embedded devices", "C/C++", "Machine Learning"],
     "github_link": "https://github.com/marcvernet31/shmall_nn",
     "demo_link": "",
@@ -140,7 +140,7 @@ const projects = [
   {
     "title": "Polygon Calculator",
     "body": "Polygon Calculator is a project developed for the Algorithmic and Programming II class at UPC. The objective of this program is to provide an intuitive and easy way of doing different calculus related to polygon geometry from the computer terminal.",
-    "image": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+    "image": "polygon.png",
     "kind": ["All", "C/C++"],
     "github_link": "https://github.com/marcvernet31/Polygon-Calculator",
     "demo_link": "",
@@ -151,7 +151,7 @@ const projects = [
   {
     "title": "Spark project",
     "body": "",
-    "image": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+    "image": "spark.png",
     "kind": ["All", "Data Engineering", "Apache Spark", "Python", "Machine Learning"],
     "github_link": "https://github.com/marcvernet31/Spark---BDA",
     "demo_link": "",
@@ -162,7 +162,7 @@ const projects = [
   {
     "title": "Kernel methods on cannabis microsatellite data",
     "body": "The main task is to classify cannabis plants into two groups: marijuana and hemp. This classification is made with microsatellite data from an open dataset.",
-    "image": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+    "image": "kernel.png",
     "kind": ["All", "Python", "Data Science"],
     "github_link": "https://github.com/marcvernet31/Project-Kernel",
     "demo_link": "",
@@ -174,7 +174,7 @@ const projects = [
   {
     "title": "SVM with AMPL",
     "body": "Support-Vector-Machine implementation for classification, with AMPL ",
-    "image": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+    "image": "SVM.png",
     "kind": ["All", "Data Science"],
     "github_link": "https://github.com/marcvernet31/SVM-AMPL",
     "demo_link": "",
@@ -185,7 +185,7 @@ const projects = [
   {
     "title": "MareNostrum HPC",
     "body": "NAS Parallel Benchmarks testing at MareNostrum Supercomputer (PSD class at GCED, UPC) ",
-    "image": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+    "image": "marenostrum.jpg",
     "kind": ["All", "C/C++"],
     "github_link": "https://github.com/marcvernet31/Proyecto-HPC",
     "demo_link": "",
@@ -196,7 +196,7 @@ const projects = [
   {
     "title": "Fantasy Football",
     "body": " Project for AP3 class at UPC ",
-    "image": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+    "image": "football.png",
     "kind": ["All", "C/C++"],
     "github_link": "",
     "demo_link": "",
@@ -224,11 +224,21 @@ const ImgMediaCard = ({project}) => {
         </Typography>
       </CardContent>
       <CardActions>
-          <Button size="small" variant="contained" startIcon={<GitHubIcon/>}> 
+          <Button 
+            size="small" variant="contained" 
+            startIcon={<GitHubIcon/>}
+            target="_blank"
+            href={project.github_link}
+          > 
             Github 
           </Button>
           {project.live_demo == "true" ? (          
-            <Button size="small" variant="contained" startIcon={<OpenInBrowserIcon/>}> 
+            <Button 
+              size="small" variant="contained" 
+              startIcon={<OpenInBrowserIcon/>}
+              target="_blank"
+              href={project.demo_link}
+            > 
               Live Demo 
             </Button>)
           :(<></>)}
@@ -274,7 +284,8 @@ const Work = ({workRef={workRef}}) => {
 
             </Box>
           </Container>
-          <Grid container spacing={4}>
+          <Container sx={{ py: 8 }} maxWidth="lg">
+          <Grid container spacing={4} >
               {projects.map((project, index) => (
                 project.kind.includes(clickedChips) ? 
                   (
@@ -286,6 +297,7 @@ const Work = ({workRef={workRef}}) => {
                   (<></>)
               ))}
           </Grid>
+          </Container>
         </div>
       </div>
     </div>

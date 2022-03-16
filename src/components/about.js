@@ -21,7 +21,7 @@ const About = ({aboutRef}) => {
             </p>
           </div>
           <div className="image-wrapper">
-            <img src={"./profile.png"} alt="about"></img>
+            <img src={"profile-modified.png"} alt="about" width="350" height="350"></img>
           </div>
         </div>
       </div>

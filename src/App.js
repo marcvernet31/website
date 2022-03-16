@@ -6,6 +6,7 @@ import Header from "./components/Header"
 import Work from "./components/Work"
 import About from "./components/about"
 import Footer from "./components/Footer"
+import { Helmet } from "react-helmet";
 
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
@@ -37,15 +38,23 @@ function App() {
   const contactRef = useRef(null);
 
   return (
-    <ThemeProvider theme={theme}>
-      <Layout workRef={workRef} aboutRef={aboutRef} contactRef={contactRef}>
-        {/* <SEO title="Marc Vernet Portfolio" /> */}
-        <Header></Header>
-        <Work workRef={workRef}></Work>
-        <About aboutRef={aboutRef}></About>
-        <Footer contactRef={contactRef}></Footer>
-      </Layout>
-    </ThemeProvider>
+    <div>
+      <Helmet>
+        <title> Marc Vernet </title>
+        <meta name="Marc Vernet"  />
+        <link rel="icon" sizes="180x180" href="/apple-touch-icon.png"></link>
+      </Helmet>
+      <ThemeProvider theme={theme}>
+        <Layout workRef={workRef} aboutRef={aboutRef} contactRef={contactRef}>
+          {/* <SEO title="Marc Vernet Portfolio" /> */}
+          <Header contactRef={contactRef}></Header>
+          <Work workRef={workRef}></Work>
+          <About aboutRef={aboutRef}></About>
+          <Footer contactRef={contactRef}></Footer>
+        </Layout>
+      </ThemeProvider>
+    </div>
+
 
   );
 }
