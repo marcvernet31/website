@@ -20,7 +20,7 @@ const About = ({aboutRef}) => {
               {"It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry."}
             </p>
           </div>
-          <div className="image-wrapper">git push origin main
+          <div className="image-wrapper">
             <img src={"profile-modified.png"} alt="about" width="350" height="350"></img>
           </div>
         </div>

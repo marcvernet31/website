@@ -1,19 +1,18 @@
 import React from "react"
 import { useState } from "react"
-import Fade from "react-reveal/Fade"
 
+import Box from '@mui/material/Box';
+import Fade from "react-reveal/Fade";
+import Chip from '@mui/material/Chip';
+import Grid from '@mui/material/Grid';
 import Card from '@mui/material/Card';
+import Stack from '@mui/material/Stack';
+import Button from '@mui/material/Button';
+import CardMedia from '@mui/material/CardMedia';
+import Container from '@mui/material/Container';
+import Typography from '@mui/material/Typography';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
-import Container from '@mui/material/Container';
-import Box from '@mui/material/Box';
-import Chip from '@mui/material/Chip';
-import Stack from '@mui/material/Stack';
-import Grid from '@mui/material/Grid';
-
 import GitHubIcon from '@mui/icons-material/GitHub';
 import OpenInBrowserIcon from '@mui/icons-material/OpenInBrowser';
 

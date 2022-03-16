@@ -1,15 +1,14 @@
 import React from "react"
-import Fade from "react-reveal/Fade"
-import Button from '@mui/material/Button';
-import Divider from '@mui/material/Divider';
 import Box from '@mui/material/Box';
+import Fade from "react-reveal/Fade";
 import Chip from '@mui/material/Chip';
 import Stack from '@mui/material/Stack';
-import FaceIcon from '@mui/icons-material/Face';
-import StorageIcon from '@mui/icons-material/Storage';
-import ShowChartIcon from '@mui/icons-material/ShowChart';
+import Button from '@mui/material/Button';
 import WebIcon from '@mui/icons-material/Web';
 import LinkIcon from '@mui/icons-material/Link';
+import StorageIcon from '@mui/icons-material/Storage';
+import ShowChartIcon from '@mui/icons-material/ShowChart';
+
 
 const Header = ({contactRef}) => {
   return (
