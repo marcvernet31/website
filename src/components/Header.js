@@ -35,11 +35,11 @@ const Header = ({contactRef}) => {
           </Fade>
           <Fade bottom>
             <Box sx={{p: 2}}>
-              <Stack direction="row" spacing={1}>
-                <Chip icon={<StorageIcon />} label="Data Engineering" variant="outlined"/>
-                <Chip icon={<ShowChartIcon />} label="Data Science" variant="outlined" />
-                <Chip icon={<WebIcon />} label="Web Dev" variant="outlined" />
-                <Chip icon={<LinkIcon />} label="Blockchain" variant="outlined" />
+              <Stack direction="row" spacing={2}>
+                <Chip icon={<StorageIcon />} label="Data Engineering" variant="outlined" sx={{boxShadow: 3 }}/>
+                <Chip icon={<ShowChartIcon />} label="Data Science" variant="outlined"  sx={{boxShadow: 3 }} />
+                <Chip icon={<WebIcon />} label="Web Dev" variant="outlined" sx={{boxShadow: 3 }} />
+                <Chip icon={<LinkIcon />} label="Blockchain" variant="outlined" sx={{boxShadow: 3 }} />
               </Stack>
             </Box>
 
@@ -50,6 +50,7 @@ const Header = ({contactRef}) => {
               <Button 
                 variant="contained"
                 onClick={() => contactRef.current.scrollIntoView({behavior: 'smooth'})}
+                sx={{boxShadow: 8 }}
               >               
                 CONNECT WITH ME
               </Button>

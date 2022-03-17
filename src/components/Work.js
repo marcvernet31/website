@@ -207,7 +207,7 @@ const projects = [
 
 const ImgMediaCard = ({project}) => {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 345, boxShadow: 5 }}>
       <CardMedia
         component="img"
         alt="green iguana"
@@ -266,7 +266,7 @@ const Work = ({workRef={workRef}}) => {
                     chip !== clickedChips ? 
                       (<Chip key={index} label={chip} onClick={() => setClickedChips(chip)}/>) 
                       : 
-                      (<Chip key={index} label={chip} onClick={() => setClickedChips(chip)} variant="outlined" />) 
+                      (<Chip key={index} label={chip} onClick={() => setClickedChips(chip)} variant="outlined" sx={{boxShadow: 3 }} />) 
                   ))}
                 </Stack>
               </Box>
@@ -276,7 +276,7 @@ const Work = ({workRef={workRef}}) => {
                     chip !== clickedChips ? 
                       (<Chip key={index} label={chip} onClick={() => setClickedChips(chip)}/>) 
                       : 
-                      (<Chip key={index} label={chip} onClick={() => setClickedChips(chip)} variant="outlined" />) 
+                      (<Chip key={index} label={chip} onClick={() => setClickedChips(chip)} variant="outlined" sx={{boxShadow: 3 }} />) 
                   ))}
                 </Stack>
               </Box>
